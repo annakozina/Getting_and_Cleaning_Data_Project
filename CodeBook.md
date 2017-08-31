@@ -14,9 +14,8 @@ activity.labels =
   LAYING
 features = list of all features.
 
-
-
-Variables:Tidy data variables list and overviewHuman Activity Recognition Using Smartphones Tidy Data Set===================================================================timeBodyAccelerometer-mean()-XStorage mode: double      Min.:  -1.000
+Variables:Tidy data variables list and overviewHuman Activity Recognition Using Smartphones Tidy Data Set===================================================================
+timeBodyAccelerometer-mean()-XStorage mode: double      Min.:  -1.000
    1st Qu.:   0.263
     Median:   0.277
       Mean:   0.274
