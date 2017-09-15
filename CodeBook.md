@@ -31,3 +31,8 @@ ________________________________________________________________________________
 
 Variable name: Combined_dataset
 Description: Combines the "activity_type", "subject", "features" variables for further analyzis 
+_____________________________________________________________________________________________________________
+
+Variable name: Only_mean_std
+Description: Extracts only the measurements on the mean and standard deviation for each measurement
+_____________________________________________________________________________________________________________
