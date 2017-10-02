@@ -1,4 +1,4 @@
-# Getting_and_Cleaning_Data_Project
+##Getting_and_Cleaning_Data_Project
 
 - The script  run_analysis.R merges the training and the test sets to create one data set (ppppp);
 - Run_analysis.R extracts only the measurements on the mean and standard deviation for each measurement; 
