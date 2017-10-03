@@ -98,6 +98,4 @@ final_dataset <- aggregate(combined_dataset, by=list(activity = combined_dataset
 
 ## 5.1) Removes all extra columns. 
 final_dataset <- subset(final_dataset, ,-c(subject, activity_labels, activity_type))
-###############################################################################################
-###############################################################################################
 
