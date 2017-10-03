@@ -1,5 +1,4 @@
-########################################################################################################
-########################################################################################################
+
 ## Getting_and_Cleaning_Data_Project
 ##run_analysis.R is a sript which clean a data set for further analysis.
 
@@ -71,8 +70,8 @@ combined_dataset
 
 ## clean the environment
 rm(list = ls()[!ls() %in% ("combined_dataset")])
-###########################################################################################################
-###########################################################################################################
+
+
 ## 2) Extracts only the measurements on the mean and standart deviation for each measurement
 only_mean_std <- select(combined_dataset, matches("activity_type|subject|mean|std"))
 
