@@ -1,6 +1,6 @@
 
 ## Getting_and_Cleaning_Data_Project
-##run_analysis.R is a sript which clean a data set for further analysis.
+## run_analysis.R is a sript which clean a data set for further analysis.
 
 ## Loads R packages
 
@@ -100,6 +100,4 @@ final_dataset <- aggregate(combined_dataset, by=list(activity = combined_dataset
 final_dataset <- subset(final_dataset, ,-c(subject, activity_labels, activity_type))
 ###############################################################################################
 ###############################################################################################
-
-
 
