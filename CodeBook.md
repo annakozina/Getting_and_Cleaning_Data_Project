@@ -5,7 +5,7 @@ Description: the experiments have been carried out with a group of 30 volunteers
 ID of the 30 volunteers  who performed the activity ranges from 1 to 30.
 
 Variable: Activity_labels 
-Description Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
+Description: Each person performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
 1. WALKING 
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS 
