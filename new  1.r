@@ -1,6 +1,7 @@
 
 ## Getting_and_Cleaning_Data_Project
-## run_analysis.R is a script which clean a data set for further analysis.
+## The purpose of this project is to demonstrate ability to collect, work with and clean data set.
+## The goal is to prepare tidy data that can be used for later analysis with a script run_analysis.R.
 
 ## Loads R packages
 library(data.table)
