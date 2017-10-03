@@ -1,7 +1,8 @@
 
 ## Getting_and_Cleaning_Data_Project
-## The purpose of this project is to demonstrate ability to collect, work with and clean data set.
-## The goal is to prepare tidy data that can be used for later analysis with a script run_analysis.R.
+# The purpose of this project is to demonstrate ability to collect, work with and clean data set.
+# The goal is to prepare tidy data that can be used for later analysis with a script run_analysis.R.
+# This R script does the following things:
 
 ## Loads R packages
 library(data.table)
