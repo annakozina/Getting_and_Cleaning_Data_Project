@@ -3,11 +3,13 @@
 ##run_analysis.R is a sript which clean a data set for further analysis.
 
 ## Loads R packages
+
 library(data.table)
 library(plyr)
 library(dplyr)
 
 ## Creates new folder "week4.project", download data from UC Irvine Machine Learning Repository and unzip the file in the created folder.
+
 setwd("C:/")
 getwd()
 if(!dir.exists("week4.project")){
@@ -18,11 +20,13 @@ destfile <- "C:/week4.project/dataset.zip"
 download.file(URL,destfile)
 
 ## Unzip the folder
+
 setwd("C:/week4.project")
 unzip("dataset.zip")
 
 ## 1) Merges the training and the test sets to create one data set (activity_type). 
 ## 1.1) Reads activity labels data (y) 
+
 y.test <- read.table("C:/week4.project/UCI HAR Dataset/test/y_test.txt") 
 y.train <- read.table("C:/week4.project/UCI HAR Dataset/train/y_train.txt") 
 activity_type <- dplyr::bind_rows(y.test, y.train)
